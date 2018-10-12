@@ -24,7 +24,7 @@ public class Commercial extends Employé {
 	@Override
 	public String toString() {
 		return super.toString()+"\n	"
-				+ "Commercial [chiffreAffaireN_Moin1=" + chiffreAffaireN_Moin1 + "]";
+				+ "est Commercial de chiffre Affaire " + chiffreAffaireN_Moin1;
 	}
 
 

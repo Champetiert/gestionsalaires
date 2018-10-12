@@ -2,7 +2,6 @@ package toutobjet;
 
 public class Adresse {
 
-
 	int numéroDeRue;
 	String rue;
 	int codePostal;
@@ -13,5 +12,10 @@ public class Adresse {
 		this.rue = rue;
 		this.codePostal = codePostal;
 		this.ville = ville;
+	}
+	
+	@Override
+	public String toString() {
+		return  numéroDeRue+" " +  rue +" "+ codePostal +" "+ ville+"\n";
 	}
 }
