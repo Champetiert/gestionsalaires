@@ -2,14 +2,14 @@ package toutobjet;
 
 public class Personne {
 	String nom;
-	String Prénom;
+	String prénom;
 	int numSecu;
 	Adresse adressePersonne;
 	CoordonnéesPersonnelles coordonneesPerso;
 	public Personne(String prénom, String nom, int numSecu, Adresse adressePersonne,
 			CoordonnéesPersonnelles coordonneesPerso) {
 		this.nom = nom;
-		Prénom = prénom;
+		prénom = prénom;
 		this.numSecu = numSecu;
 		this.adressePersonne = adressePersonne;
 		this.coordonneesPerso = coordonneesPerso;

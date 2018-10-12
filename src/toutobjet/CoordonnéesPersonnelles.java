@@ -8,6 +8,12 @@ public class CoordonnéesPersonnelles {
 			this.numeroDeTel = numeroDeTel;
 			this.mail = mail;
 		}
+
+		@Override
+		public String toString() {
+			return "Tel=" + numeroDeTel + ", mail=" + mail+"\n";
+		}
+		
 		
 		
 }

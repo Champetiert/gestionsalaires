@@ -14,10 +14,10 @@ public class main {
 		System.out.println("Norbert à la chance de toucher " + norbert.salaireBrut() + "Euros Brut par an");
 		
 		
-steven.mission();
+		//steven.mission();
 
 		System.out.println(steven);
-		System.out.println(jack);
+		//System.out.println(jack);
 	}
 
 

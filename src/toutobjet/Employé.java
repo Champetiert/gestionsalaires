@@ -18,9 +18,10 @@ public abstract class Employé extends Personne{
 	}
 	@Override
 	public String toString() {
-		return "Employé [matricule=" + matricule + ", coordonneesProf=" + coordonneesProf + ", nom=" + nom + ", Prénom="
-				+ Prénom + ", numSecu=" + numSecu + ", adressePersonne=" + adressePersonne + ", coordonneesPerso="
-				+ coordonneesPerso + "]";
+		return "Employé "+ prénom +" "+ nom +" de matricule " + matricule +" et de numéro de Secu " + numSecu+ "\n"
+				+ " coordonneesProf=" + coordonneesProf  
+	 			+ " adressePersonne=" + adressePersonne 
+				+ " coordonneesPerso="+ coordonneesPerso ;
 	}
 	
 	
